@@ -1,0 +1,8 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\DBate\Documents\UniWork\Uni-Programming-Projects\Year 3 Term 2\Parallel and Concurrent Programming\Qingde's Labs\Lab 3\Lab 3 - Q2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\DBate\Documents\UniWork\Uni-Programming-Projects\Year 3 Term 2\Parallel and Concurrent Programming\Qingde's Labs\Lab 3\Lab 3 - Q2\kernel.cu" 
+C:\Users\DBate\Documents\UniWork\Uni-Programming-Projects\Year 3 Term 2\Parallel and Concurrent Programming\Qingde's Labs\Lab 3\Lab 3 - Q2\kernel.cu(17): warning #177-D: variable "sum" was declared but never referenced
+  
+  kernel.cu
+     Creating library C:\Users\DBate\Documents\UniWork\Uni-Programming-Projects\Year 3 Term 2\Parallel and Concurrent Programming\Qingde's Labs\Lab 3\Lab 3\x64\Debug\Lab 3 - Q2.lib and object C:\Users\DBate\Documents\UniWork\Uni-Programming-Projects\Year 3 Term 2\Parallel and Concurrent Programming\Qingde's Labs\Lab 3\Lab 3\x64\Debug\Lab 3 - Q2.exp
+  Lab 3 - Q2.vcxproj -> C:\Users\DBate\Documents\UniWork\Uni-Programming-Projects\Year 3 Term 2\Parallel and Concurrent Programming\Qingde's Labs\Lab 3\Lab 3\x64\Debug\Lab 3 - Q2.exe

@@ -1,0 +1,21 @@
+﻿  ImageProcess_cuda.cpp
+C:\Users\DBate\Documents\Uni-Programming-Projects\Year 3 Term 2\Parallel and Concurrent Programming\Qingde's Labs\Lab 4\Lab4\ImageProcess_cuda.cpp(392,11): warning C4101: 'filename': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\algorithm(2892,24): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=unsigned char
+          ]
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.5\common\inc\helper_image.h(216): message : see reference to function template instantiation '_OutIt *std::transform<unsigned char*,T*,helper_image_internal::ConverterFromUByte<unsigned char>>(const _InIt,const _InIt,_OutIt,_Fn)' being compiled
+          with
+          [
+              _OutIt=unsigned char *,
+              T=unsigned char,
+              _InIt=unsigned char *,
+              _Fn=helper_image_internal::ConverterFromUByte<unsigned char>
+          ]
+C:\Users\DBate\Documents\Uni-Programming-Projects\Year 3 Term 2\Parallel and Concurrent Programming\Qingde's Labs\Lab 4\Lab4\ImageProcess_cuda.cpp(371): message : see reference to function template instantiation 'bool sdkLoadPGM<unsigned char>(const char *,T **,unsigned int *,unsigned int *)' being compiled
+          with
+          [
+              T=unsigned char
+          ]
+  Lab4.vcxproj -> C:\Users\DBate\Documents\Uni-Programming-Projects\Year 3 Term 2\Parallel and Concurrent Programming\Qingde's Labs\Lab 4\Lab4\x64\Debug\Lab4.exe
